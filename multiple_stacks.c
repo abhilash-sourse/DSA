@@ -1,4 +1,4 @@
-// Multiple stacks means more than one stack stored inside a single array.
+// Multiple stacks means one or more stack stored inside a single array.
 
 // Index : 0 1 2 3 4 5 6 7 8 9
 // Stack1 → grows left to right

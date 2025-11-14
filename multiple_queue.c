@@ -1,4 +1,4 @@
-// Multiple queue means more than one queue stored inside a single array.
+// Multiple queue means one or morequeue stored inside a single array.
 
 // Index : 0 1 2 3 4 5 6 7 8 9
 // queue1 → grows left to right
