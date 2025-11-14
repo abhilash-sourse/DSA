@@ -1,3 +1,5 @@
+// FIFO – First In, First Out
+
 #include <stdio.h>
 #define SIZE 5  // Queue size
 
@@ -39,18 +41,14 @@ void display() {
 }
 
 int main() {
-    int a,b;
-    scanf("%d",&a);
-    while(a!=0){
-    switch(a){
-        case 1 : scanf("%d",&b);enqueue(b);
-        break;
-        case 2 : dequeue();
-        break;
-        case 3 : display();
-        break;
-    }
-}
+    enqueue(10);
+    enqueue(20);
+    enqueue(30);
+    enqueue(40);
+    enqueue(50);
+    dequeue(); 
+    dequeue(); 
+    display();
 
     return 0;
 }
